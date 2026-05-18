@@ -318,6 +318,17 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
+  }
   .border-gray-600 {
     border-color: var(--color-gray-600);
   }
@@ -541,6 +552,11 @@
   .md\:items-start {
     @media (width >= 48rem) {
       align-items: flex-start;
+    }
+  }
+  .md\:justify-between {
+    @media (width >= 48rem) {
+      justify-content: space-between;
     }
   }
   .md\:text-5xl {
